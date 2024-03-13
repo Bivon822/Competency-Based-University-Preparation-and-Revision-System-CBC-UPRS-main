@@ -1,0 +1,852 @@
+/*navigation and form css
+*/
+.topnav1 {
+  overflow: hidden;
+  background-color: #040c2e;
+}
+
+.title{
+  display: block;
+  color: white;
+  text-align: center;
+}
+.top-right-form{
+  float: right;
+}
+.admn-sign-in-btn{
+  float: right;
+  border-radius: 8px;
+}
+.need-help{
+  text-decoration: none;
+  color: white;
+}
+.forget-details{
+  text-decoration: none;
+  color: white;
+}
+.or{
+  color: rgb(226, 195, 195);
+}
+.usm{
+  border-radius: 8px;
+}
+.paswd{
+  border-radius: 8px;
+}
+.quick-links a{
+  float: left;
+  text-decoration: none;
+}
+
+/*
+new css
+*/
+
+.navbar2 {
+  overflow: hidden;
+  background-color: #0c0a3d;
+}
+
+.navbar2 a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar2 a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: red;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/*quicklink-header css
+*/
+.quick-links-header{
+	font-weight: bold;
+	font-style: normal;
+	color: #17445E;
+	border-bottom: 5px solid #ddd;
+	margin-bottom: 20px;
+	font-size: 15px;
+	padding-bottom: 3px;
+}
+/*quick-links button  css
+*/
+.quick-links{
+	background-color: #0c0a3d;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+  text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	width: 300px;
+	cursor: pointer;
+}
+.quick-links a{
+	color: white;
+}
+
+.display{
+	display: flex;
+	padding: 15px;
+}
+.header1{
+font-weight: bold;
+font-style: normal;
+color: #17445E;
+border-bottom: 5px solid #ddd;
+margin-bottom: 20px;
+font-size: 15px;
+padding-bottom: 3px;
+align-items: center;
+}
+.header2{
+font-weight: bold;
+font-style: normal;
+color: #17445E;
+border-bottom: 5px solid #ddd;
+margin-bottom: 20px;
+font-size: 15px;
+padding-bottom: 3px;
+align-items: center;
+}
+.sub-header{
+font-weight: bold;
+font-style: normal;
+color: #17445E;
+font-size: 15px;
+}
+.home-content-2{
+margin-left: 25px;
+}
+.home-content-3{
+margin-left: 25px;
+}
+
+
+/*application and new applicant form css
+*/
+.form-style-8{
+	max-width: 600px;
+	background: #FAFAFA;
+	padding: 30px;
+	margin: 50px auto;
+	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+	border-radius: 10px;
+}
+.form-style-heading{
+	font-weight: bold;
+	font-style: normal;
+	color: #17445E;
+	border-bottom: 2px solid #ddd;
+	margin-bottom: 20px;
+	font-size: 15px;
+	padding-bottom: 3px;
+}
+.form-style-8 ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+.form-style-8 ul li{
+	display: block;
+	margin-bottom: 10px;
+	min-height: 35px;
+}
+.form-style-8 ul li  .field-style{
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	padding: 8px;
+	outline: none;
+	border: 1px solid #B0CFE0;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+
+}.form-style-8 ul li  .field-style:focus{
+	box-shadow: 0 0 5px #B0CFE0;
+	border:1px solid #B0CFE0;
+}
+.form-style-8 ul li .field-split{
+	width: 49%;
+}
+.form-style-8 ul li .field-full{
+	width: 100%;
+}
+.form-style-8 ul li input.align-left{
+	float:right;
+}
+.form-style-8 ul li input.align-right{
+	float:right;
+}
+.form-style-8 ul li textarea{
+	width: 100%;
+	height: 100px;
+}
+.form-style-8 ul li input[type="button"], 
+.form-style-8 ul li input[type="submit"] {
+	-moz-box-shadow: inset 0px 1px 0px 0px #3985B1;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #3985B1;
+	box-shadow: inset 0px 1px 0px 0px #3985B1;
+	background-color: #216288;
+	border: 1px solid #17445E;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	padding: 8px 18px;
+	text-decoration: none;
+	font: 12px Arial, Helvetica, sans-serif;
+}
+.form-style-8 ul li input[type="button"]:hover, 
+.form-style-8 ul li input[type="submit"]:hover {
+	background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
+	background-color: #28739E;
+}
+
+.form-style-8 ul .col-75{
+	border: 1px solid #B0CFE0;
+  padding: 8px;
+
+}
+.form-style-8 ul li label{
+	font-family: arial;
+
+}
+.form-style-8  .details{
+	font-family: arial;
+
+}
+.form-style-8 ul .select-university-header{
+	color: #17445E;
+	font-style: italic;
+
+}
+.form-style-8 ul .align-right{
+	float: right;
+
+}
+.form-style-8 .align-left{
+	float: left;
+}
+
+/*
+Register new university and course form css
+*/
+
+.form-style-9{
+	max-width: 650px;
+	background: #FAFAFA;
+	padding: 30px;
+	margin: 50px auto;
+	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+	border-radius: 10px;
+	border: 6px;
+}
+.form-style-heading{
+	font-weight: bold;
+	font-style: normal;
+	color: #17445E;
+	border-bottom: 2px solid #ddd;
+	margin-bottom: 20px;
+	font-size: 15px;
+	padding-bottom: 3px;
+}
+.form-style-9 ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+.form-style-9 ul li{
+	display: block;
+	margin-bottom: 10px;
+	min-height: 35px;
+}
+.form-style-9 ul li  .field-style{
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	padding: 8px;
+	outline: none;
+	border: 1px solid #B0CFE0;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+
+}.form-style-9 ul li  .field-style:focus{
+	box-shadow: 0 0 5px #B0CFE0;
+	border:1px solid #B0CFE0;
+}
+.form-style-9 ul li .field-split{
+	width: 49%;
+}
+.form-style-9 ul li .field-full{
+	width: 100%;
+}
+.form-style-9 ul li input.align-left{
+	float:right;
+}
+.form-style-9 ul li input.align-right{
+	float:right;
+}
+.form-style-9 ul li textarea{
+	width: 100%;
+	height: 100px;
+}
+.form-style-9 ul li input[type="button"], 
+.form-style-9 ul li input[type="submit"] {
+	-moz-box-shadow: inset 0px 1px 0px 0px #3985B1;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #3985B1;
+	box-shadow: inset 0px 1px 0px 0px #3985B1;
+	background-color: #216288;
+	border: 1px solid #17445E;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	padding: 8px 18px;
+	text-decoration: none;
+	font: 12px Arial, Helvetica, sans-serif;
+}
+.form-style-9 ul li input[type="button"]:hover, 
+.form-style-9 ul li input[type="submit"]:hover {
+	background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
+	background-color: #28739E;
+}
+
+.form-style-9 ul .col-75{
+	border: 1px solid #B0CFE0;
+  padding: 8px;
+
+}
+.form-style-9 ul li label{
+	font-family: arial;
+
+}
+.form-style-9  .details{
+	font-family: arial;
+
+}
+.form-style-9 ul .select-university-header{
+	color: #17445E;
+	font-style: italic;
+
+}
+.form-style-9 ul .align-right{
+	float: right;
+
+}
+.form-style-9 .align-left{
+	float: left;
+}
+
+/*
+table css
+*/
+table{
+	font-family: arial,sans-serif;
+	border-collapse:collapse;
+	width: 600px;
+	margin-left: auto; 
+	margin-right: auto;
+}
+td,th{
+	border: 1px solid #dddddd;
+	text-align:left;
+	padding: 8px;
+
+}
+tr:nth-child(even) {
+	background-color:#dddddd;
+}
+
+/* user-side-bar css
+*/
+      /* Google Font Link */
+			@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+			*{
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+				font-family: "Poppins" , sans-serif;
+			}
+			.sidebar2{
+				position: fixed;
+				left: 0;
+				top: 0;
+				height: 100%;
+				width: 78px;
+				background: #11101D;
+				padding: 6px 14px;
+				z-index: 99;
+				transition: all 0.5s ease;
+			}
+			.sidebar2.open{
+				width: 250px;
+			}
+			.sidebar2 .logo-details{
+				height: 60px;
+				display: flex;
+				align-items: center;
+				position: relative;
+			}
+			.sidebar2 .logo-details .icon{
+				opacity: 0;
+				transition: all 0.5s ease;
+			}
+			.sidebar2 .logo-details .logo_name{
+				color: #fff;
+				font-size: 20px;
+				font-weight: 600;
+				opacity: 0;
+				transition: all 0.5s ease;
+			}
+			.sidebar2.open .logo-details .icon,
+			.sidebar2.open .logo-details .logo_name{
+				opacity: 1;
+			}
+			.sidebar2 .logo-details #btn{
+				position: absolute;
+				top: 50%;
+				right: 0;
+				transform: translateY(-50%);
+				font-size: 22px;
+				transition: all 0.4s ease;
+				font-size: 23px;
+				text-align: center;
+				cursor: pointer;
+				transition: all 0.5s ease;
+			}
+			.sidebar2.open .logo-details #btn{
+				text-align: right;
+			}
+			.sidebar2 i{
+				color: #fff;
+				height: 60px;
+				min-width: 50px;
+				font-size: 28px;
+				text-align: center;
+				line-height: 60px;
+			}
+			.sidebar2 .nav-list{
+				margin-top: 20px;
+				height: 100%;
+			}
+			.sidebar2 li{
+				position: relative;
+				margin: 8px 0;
+				list-style: none;
+			}
+			.sidebar2 li .tooltip{
+				position: absolute;
+				top: -20px;
+				left: calc(100% + 15px);
+				z-index: 3;
+				background: #fff;
+				box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+				padding: 6px 12px;
+				border-radius: 4px;
+				font-size: 15px;
+				font-weight: 400;
+				opacity: 0;
+				white-space: nowrap;
+				pointer-events: none;
+				transition: 0s;
+			}
+			.sidebar2 li:hover .tooltip{
+				opacity: 1;
+				pointer-events: auto;
+				transition: all 0.4s ease;
+				top: 50%;
+				transform: translateY(-50%);
+			}
+			.sidebar2.open li .tooltip{
+				display: none;
+			}
+			.sidebar2 input{
+				font-size: 15px;
+				color: #FFF;
+				font-weight: 400;
+				outline: none;
+				height: 50px;
+				width: 100%;
+				width: 50px;
+				border: none;
+				border-radius: 12px;
+				transition: all 0.5s ease;
+				background: #1d1b31;
+			}
+			.sidebar2.open input{
+				padding: 0 20px 0 50px;
+				width: 100%;
+			}
+			.sidebar2 .bx-search{
+				position: absolute;
+				top: 50%;
+				left: 0;
+				transform: translateY(-50%);
+				font-size: 22px;
+				background: #1d1b31;
+				color: #FFF;
+			}
+			.sidebar2.open .bx-search:hover{
+				background: #1d1b31;
+				color: #FFF;
+			}
+			.sidebar2 .bx-search:hover{
+				background: #FFF;
+				color: #11101d;
+			}
+			.sidebar2 li a{
+				display: flex;
+				height: 100%;
+				width: 100%;
+				border-radius: 12px;
+				align-items: center;
+				text-decoration: none;
+				transition: all 0.4s ease;
+				background: #11101D;
+			}
+			.sidebar2 li a:hover{
+				background: #FFF;
+			}
+			.sidebar2 li a .links_name{
+				color: #fff;
+				font-size: 15px;
+				font-weight: 400;
+				white-space: nowrap;
+				opacity: 0;
+				pointer-events: none;
+				transition: 0.4s;
+			}
+			.sidebar2.open li a .links_name{
+				opacity: 1;
+				pointer-events: auto;
+			}
+			.sidebar2 li a:hover .links_name,
+			.sidebar2 li a:hover i{
+				transition: all 0.5s ease;
+				color: #11101D;
+			}
+			.sidebar2 li i{
+				height: 50px;
+				line-height: 50px;
+				font-size: 18px;
+				border-radius: 12px;
+			}
+			.sidebar2 li.profile{
+				position: fixed;
+				height: 60px;
+				width: 78px;
+				left: 0;
+				bottom: -8px;
+				padding: 10px 14px;
+				background: #1d1b31;
+				transition: all 0.5s ease;
+				overflow: hidden;
+			}
+			.sidebar2.open li.profile{
+				width: 250px;
+			}
+			.sidebar2 li .profile-details{
+				display: flex;
+				align-items: center;
+				flex-wrap: nowrap;
+			}
+			.sidebar2 li img{
+				height: 45px;
+				width: 45px;
+				object-fit: cover;
+				border-radius: 6px;
+				margin-right: 10px;
+			}
+			.sidebar2 li.profile .name,
+			.sidebar2 li.profile .job{
+				font-size: 15px;
+				font-weight: 400;
+				color: #fff;
+				white-space: nowrap;
+			}
+			.sidebar2 li.profile .job{
+				font-size: 12px;
+			}
+			.sidebar2 .profile #log_out{
+				position: absolute;
+				top: 50%;
+				right: 0;
+				transform: translateY(-50%);
+				background: #1d1b31;
+				width: 100%;
+				height: 60px;
+				line-height: 60px;
+				border-radius: 0px;
+				transition: all 0.5s ease;
+			}
+			.sidebar.open .profile #log_out{
+				width: 50px;
+				background: none;
+			}
+			.home-section{
+				position: relative;
+				min-height: 100vh;
+				top: 0;
+				left: 78px;
+				width: calc(100% - 78px);
+				transition: all 0.5s ease;
+				z-index: 2;
+			}
+			.sidebar2.open ~ .home-section{
+				left: 250px;
+				width: calc(100% - 250px);
+			}
+			.home-section .text{
+				display: inline-block;
+				color: #11101d;
+				font-size: 25px;
+				font-weight: 500;
+				margin: 18px
+			}
+			@media (max-width: 420px) {
+				.sidebar2 li .tooltip{
+					display: none;
+				}
+			}
+/*end usersidebar css*/
+
+
+@media screen and (max-width: 600px) {
+	input[type="number"],
+	input[type="text"],
+	input[type="number"],
+	textarea {
+			width: 100%;
+	}
+	table {
+		display: block;
+		overflow-x: auto;
+		white-space: nowrap;
+}
+
+th, td {
+		display: inline-block;
+		width: auto;
+}
+h3{
+	display: inline-block;
+}
+}
+
+/*user-profile css*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+body{
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: #f2f2f2;
+}
+.container4{
+  max-width: 700px;
+  width: 100%;
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+.container4 .title{
+  font-size: 15px;
+  font-weight: 500;
+  position: relative;
+}
+.container4 .title::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+  border-radius: 5px;
+}
+.content form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+form .user-details .input-box{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+form .input-box span.details{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.user-details .input-box input{
+  height: 40px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 1px;
+  padding-left: 15px;
+  border:1px solid #B0CFE0;
+  transition: all 0.3s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+  box-shadow: 0 0 5px #B0CFE0;
+}
+ form .gender-details .gender-title{
+  font-size: 20px;
+  font-weight: 500;
+ }
+ form .category{
+   display: flex;
+   width: 80%;
+   margin: 14px 0 ;
+   justify-content: space-between;
+ }
+ form .category label{
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+ }
+ form .category label .dot{
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background: #d9d9d9;
+  border: 5px solid transparent;
+  transition: all 0.3s ease;
+}
+ #dot-1:checked ~ .category label .one,
+ #dot-2:checked ~ .category label .two,
+ #dot-3:checked ~ .category label .three{
+   background: #9b59b6;
+   border-color: #d9d9d9;
+ }
+ form input[type="radio"]{
+   display: none;
+ }
+ form .button{
+   height: 45px;
+   margin: 35px 0
+ }
+ form .button input{
+   height: 100%;
+   width: 20%;
+   border-radius: 5px;
+   border: none;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   background: blue;
+   justify-content: center;
+   align-items: center;
+ }
+ form .button input:hover{
+  /* transform: scale(0.99); */
+  background: green;
+  }
+ @media(max-width: 584px){
+ .container{
+  max-width: 100%;
+}
+form .user-details .input-box{
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  form .user-details .input-box.col-75{
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  form .category{
+    width: 100%;
+  }
+  .content form .user-details{
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  .user-details::-webkit-scrollbar{
+    width: 5px;
+  }
+  }
+  @media(max-width: 459px){
+  .container .content .category{
+    flex-direction: column;
+  }
+}
+.col-75 {
+  
+  height: 40px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 1px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+  border:1px solid #B0CFE0;
+  
+}
+/*end of user-profile css*/
